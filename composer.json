@@ -1,7 +1,7 @@
 {
     "name": "oguzcandemircan/laravelguest",
     "description": ":description",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Oğuzcan Demircan",
@@ -12,7 +12,6 @@
     "homepage": "https://github.com/oguzcandemircan/laravelguest",
     "keywords": ["Laravel", "LaravelGuest"],
     "require": {
-        "illuminate/framework": "~5"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
