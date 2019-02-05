@@ -41,13 +41,23 @@ $user->isGuest();
 Via Laravel resolve helper function
 ```php
 $user = resolve('laravelguest')->make();
-$user->isGuest();   
+$user->isMember();   
 ```
 
 Service Container
 ```php
-$user = $this->app->resolving('laravelguest)->make();
+$user = $this->app->resolving('laravelguest')->make();
 $user->name;
+```
+## Helper Functions
+
+```php
+if(is_member()) {
+ #...
+}
+if(is_guest()) { 
+#...
+}
 ```
 
 ## Available Methods
