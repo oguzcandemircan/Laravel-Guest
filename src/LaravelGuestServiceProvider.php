@@ -42,9 +42,8 @@ class LaravelGuestServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/laravelguest.php', 'laravelguest');
 
         // Register the service the package provides.
-        
         $this->app->singleton('laravelguest', function ($app) {
-            return (new LaravelGuest)->make();
+            return new LaravelGuest;
         });
     }
 

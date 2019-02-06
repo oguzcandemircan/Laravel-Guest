@@ -5,7 +5,7 @@ namespace OguzcanDemircan\LaravelGuest\Commands;
 use Illuminate\Console\Command;
 
 class InstallCommand extends Command {
-
+    
     protected $signature = 'laravelguest:create';
 
     protected $description = 'Create guest user';

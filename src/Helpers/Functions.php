@@ -2,7 +2,7 @@
 
 if(! function_exists('user')) {
     function user() {
-        return resolve('laravelguest');
+        return resolve('laravelguest')->make();
     }
 }
 
