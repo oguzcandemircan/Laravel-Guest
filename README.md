@@ -32,8 +32,6 @@ user()->isGuest();
 
 Via facades
 ```php
-use OguzcanDemircan\LaravelGuest\LaravelGuest;
-
 $user = LaravelGuest::make();
 $user->isGuest();
 
