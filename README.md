@@ -56,6 +56,9 @@ if(is_member()) {
 if(is_guest()) { 
 #...
 }
+
+user_id()
+#..
 ```
 
 ## Available Methods
@@ -66,6 +69,7 @@ if(is_guest()) {
 | OguzcanDemircan\LaravelGuest\LaravelGuest  | isMember  | Boolean  |
 | OguzcanDemircan\LaravelGuest\Helpers\Functions.php | is_guest() | Boolean |
 | OguzcanDemircan\LaravelGuest\Helpers\Functions.php | is_member() | Boolean |
+| OguzcanDemircan\LaravelGuest\Helpers\Functions.php | user_id() | Integer |
 
 
 ## Change log
